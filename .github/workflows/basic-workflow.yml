@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ macos-lastest, windows-lastest, ubuntu-lastest ]
+        os: [ windows-lastest, ubuntu-lastest ]
         java: [ '8', '11', '17' ]
     steps:
       - uses: actions/checkout@v2
